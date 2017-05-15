@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="https://cdn.illusion.ai/illusionAI-alpha.css">
+<script type="text/javascript" src="https://cdn.illusion.ai/illusionAI-alpha.js""></script>
+
+<style>
+body {background-color: powderblue;}
+</style>
+
+	<!-- Document Title
+	============================================= -->
+	<title>Choisir Mon Concierge. Le comparateur pour louer en Airbnb</title>
+
+</head>
+
+<body class="stretched">
+
+	<div class="my_chat">
+
+
+	<img id="cmc"src="images/groomW.png">
+
+    <script type="text/javascript">
+     var chat = new Chat({
+
+
+
+ greeting: [
+          'Bienvenu, nous sommes ravi de vous voir ici',
+          'Je vais essayer de vous accompagner dans votre réfléxion',
+          'Pour bien vous aider, pouvez-vous nous en dire plus?',
+          
+           
+          {
+            type: 'choose',
+            answers: [{
+              'text': 'J\'ai déjà un logement que je loues en meublé',
+              'path': 'déjà'
+            },
+            {
+              'text': 'Je réfléchis au fait de louer ma résidence principale',
+              'path': 'principale'
+            }]
+          }
+        ],
+
+
+          'déjà': [
+          'Merci, Et ce logement, vous le louez...',
+          
+
+          {
+            type: 'choose',
+            answers: [{
+              'text': 'à la nuitée (type AirBnb)',
+              'path': 'nuitée'
+            },
+              {
+              'text': 'en long séjour (location traditionnelle)',
+              'path': 'séjour'
+            
+            }]
+          }
+        ],
+
+
+
+          'nuitée': [
+          'Félicitation, c\'est à notre sens le meilleur mode de location!',
+          'Si les choses sont bien faites, vous faites parti des privilégiés ;)',
+          'Mais...on se permet la question...',
+          'Optimisez vous au maximum le potentiel de votre logement?',
+
+
+          {
+            type: 'choose',
+            answers: [{
+              'text': 'Je pense, j\'ai confié mon bien à un concierge professionnel',
+              'path': 'concierge'
+            },
+              {
+              'text': 'Je gère moi-même le bien',
+              'path': 'solo'
+            
+            }]
+          }
+        ],
+
+
+        'concierge': [
+          'Choix judicieux, mais connaissez vous nos services ? on vous en parle rapidement...',
+          'Aujourd\'hui de nombreux services de conciergerie ont vu le jour',
+          'Alors comment choisir le bon concierge? ',
+          'Notre solution: pour vous faire gagner du temps et de l\'argent nous les avons tous testé',
+          'et nous avons sélectionné les 3 meilleurs',
+          'en quelques clics vous pourrez obtenir le meilleur devis provenant de ces sociétés !',
+          
+
+          {
+            type: 'choose',
+            answers: [{
+              'text': 'Ah bon?',
+              'path': 'preuve'
+            },
+              {
+              'text': 'Ok, faites moi un devis',
+              'path': 'devis'
+            
+            }]
+          }
+        ],
+
+
+
+        'preuve': [
+          'Pas convaincu?',
+          'Face à la concurrence, les offres évoluent vites.',
+          'Les commissions de ces services varient entre 9 et 20%',
+          'la qualité des prestations (ménages, professionnalismes des intervenants...) varient grandement',
+          'de nouveaux services voient le jour (prêt d\'un boitier wifi, linge de maison écologique etc...)',
+          'avec notre comparateur, ne prenez pas le risque de ne pas avoir la meilleure solution !',
+
+
+
+           {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Cela m\'interesse',
+              'path': 'devis'
+
+              },
+              {
+
+              'text': 'Je veux bien davantage de renseignement',
+              'path': 'guide'
+            
+            }]
+          }
+          
+        ],
+
+
+        'principale': [
+          'Aujourd\'hui et grâce à la qualité des services de conciergerie',
+          'vous n\'avez plus aucune raison de ne pas sauter le pas',
+          'Partir en vacances et ce sont les revenus de votre logement qui règlent la note, c\'est plutôt sympa non?',
+          'Revenir et retrouver son logement parfaitement propre',
+          'Tout ce que vous aurez à faire?',
+          '....',
+          'Bah en faites',
+          'Vous n\'aurez rien à faire',
+           '..... juste une chose en faite....',
+          'Prévenir votre concierge de votre absence',
+
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Cela m\'interesse',
+              'path': 'devis'
+            },
+              {
+
+              'text': 'J\'aimerais avoir plus d\'informations',
+              'path': 'infos'
+            
+            }]
+          }
+        ],
+
+        'devis': [
+          'Ok super!',
+          'Cliquez-sur ce lien et remplissez les quelques informations qu\'il nous faut',
+          '<a href="https://choisirmonconcierge.typeform.com/to/hqKHiR">Cliquez-ici</a>',
+          'Nos équipes vont vous faire un retour par mail très rapidement',
+          
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Merci à bientôt',
+              'path': 'merci'
+            },
+              {
+
+              'text': 'J\’ai une autre question',
+              'path': 'contact'
+            
+            }]
+          }
+        ],
+
+
+        'solo': [
+          'Le courage est une grande vertue ;)',
+          'Cliquez-sur ce lien et remplissez les quelques informations qu\'il nous faut',
+          '<a href="https://choisirmonconcierge.typeform.com/to/hqKHiR">Cliquez-ici</a>',
+          'Nos équipes vont vous faire un retour par mail très rapidement',
+          
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Merci à bientôt',
+              'path': 'merci'
+            },
+              {
+
+              'text': 'J\’ai une autre question',
+              'path': 'contact'
+            
+            }]
+          }
+        ],
+
+          'guide': [
+          'Bien sur',
+          'Vous pouvez télécharger notre guide sur cette page',
+          '<a href="index.html">Cliquez-ici</a>',
+          'Vous y trouverez toutes les BONNES raisons de passer par un concierge pour louer votre logement',
+          
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Merci à bientôt',
+              'path': 'merci'
+            },
+              {
+
+              'text': 'J\’ai une autre question',
+              'path': 'contact'
+            
+            }]
+          }
+        ],
+
+        'infos': [
+          'Bien sur',
+          'Vous pouvez télécharger notre guide sur cette page',
+          '<a href="pourquoi.html">Cliquez-ici</a>',
+          'Vous y trouverez toutes les BONNES raisons de louer votre logement en court séjour',
+          
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Merci à bientôt',
+              'path': 'merci'
+            },
+              {
+
+              'text': 'J\’ai une autre question',
+              'path': 'contact'
+            
+            }]
+          }
+        ],
+
+        'merci': [
+          'Merci à vous, Nous espérons pouvoir bientôt faciliter vos locations, nous sommes à votre entière disposition',
+          
+          
+          
+        ],
+
+        'contact': [
+          'N\’hésitez pas à nous envoyer un mail',
+          'Notre mail <a href="contact@choisirmonconcierge.com">ChoisirMonConcierge</a>',
+
+          
+          {
+            type: 'choose',
+            answers: [{
+
+              'text': 'Ok, merci',
+              'path': 'merci'
+            
+            }]
+          }
+        ],  
+    
+
+
+      }, {
+        targetNode: '.my_chat'
+      });
+    </script>
+</div>
+	
+</body>
+</html>
