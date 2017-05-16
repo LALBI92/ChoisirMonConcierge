@@ -287,7 +287,7 @@ span.middot {
 
 .topmargin { margin-top: 50px !important; }
 
-.bottommargin { margin-bottom: 50px !important; }
+.bottommargin { margin-bottom: 0px !important; }
 
 .clear-bottommargin { margin-bottom: -50px !important; }
 
