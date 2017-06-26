@@ -1985,7 +1985,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #header,
 #header-wrap,
 #logo img {
-	height: 120px;
+	height: 100px;
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
@@ -11213,7 +11213,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	display: block;
 	margin-top: 30px;
 	width: 40px;
-	border-top: 2px solid #444;
+
 }
 
 .center .heading-block:after,
@@ -13646,5 +13646,5 @@ body:not(.no-transition) #wrapper,
 #pourquoiH3{
 	font-size: 20px;
 	color: #FF5A60;
-	
+
 }
